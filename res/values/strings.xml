@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">左右滑动菜单</string>
+    <string name="img_desc"></string>
+    <string name="xinzhifu">鑫支付</string>
+    <string name="left_title">其它</string>
+    <string name="right_title">用户信息</string>
+    <string name="leftNav">左侧导航</string>
+    <string name="rightNav">右侧导航</string>
+    <string name="app_name">鑫支付</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty"></string>
+    <string name="setting">设置</string>
+    <string name="yixin">签	到</string>
+    <string name="friend">我的账单</string>
+    <string name="group">设置</string>
+    <string name="nearby">附近</string>
+    <string name="listview">安全退出</string>
+    <string name="app_about">关于</string>
+    <string name="lianxiren">联系人 :</string>
+    <string name="shanghubianhao">商户编号 :</string>
+    <string name="shenfenzhenghao">身份证号 :</string>
+    <string name="weijiesuan">未结算金额 :</string>
+    <string name="shoujihaoma">手机号码 :</string>
+    <string name="youxiang">邮箱 :</string>
+    <string name="qiehuan">更换账号 :</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_consume">ConsumeActivity</string>
+    <string name="buy">我要收款</string>
+    <string name="comfirm_text">确定</string>
+    <string name="cancel_text">取消</string>
+    <string name="lianhanghao">联行号 :</string>
+    <string name="yinhangkahao">银行卡号 :</string>
+    <string name="kaihuhang">开户行 :</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_start">鑫支付</string>
+    <string name="title_activity_start_login">StartLoginActivity</string>
+    <string name="title_activity_shou_shi_login_activity_main">ShouShiLoginActivity_main</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/parentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@color/bule_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+
+        <TextView
+            android:id="@+id/title_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="温馨提示"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <ProgressBar
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            style="?android:attr/progressBarStyle"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginRight="30dp" >
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/customFrameMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="请稍等..."
+                android:textColor="@color/cancel_bg"
+                android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

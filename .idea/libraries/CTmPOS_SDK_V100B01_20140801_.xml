@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CTmPOS_SDK_V100B01(20140801)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/CTmPOS_SDK_V100B01(20140801).jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

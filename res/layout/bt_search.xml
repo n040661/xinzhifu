@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bt_bg"
+    android:orientation="vertical" >
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@color/bule_bg"
+       >
+       <ImageView 
+           android:id="@+id/return_to"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/return_icon"
+           android:layout_marginLeft="8dp"
+           android:layout_marginTop="4dp"
+           android:layout_marginBottom="4dp"
+           android:layout_centerVertical="true"
+           />
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="选择配对设备"
+           android:textSize="22sp"
+           android:textColor="@color/white"
+           android:layout_centerInParent="true"
+           android:layout_marginTop="4dp"
+           android:layout_marginBottom="4dp"
+           />
+   </RelativeLayout> 
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bt_bg"
+    >
+    <LinearLayout
+        android:id="@+id/bt_head" 
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentTop="true"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可用设备"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="4dp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/bule_bg"/>
+            <ProgressBar
+        android:id="@+id/bt_pb"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content" />
+            
+        </RelativeLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:background="@color/navigation_bg"
+            ></LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/list_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/bt_head"
+        android:divider="@color/listview_divider"
+        android:dividerHeight="1dp"
+        ></ListView>
+    <LinearLayout 
+         android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/list_view1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/bule_bg"
+        android:gravity="center"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="重新搜索"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

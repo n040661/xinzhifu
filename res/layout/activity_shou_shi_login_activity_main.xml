@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shima_bg"
+     >
+
+    
+    <ImageView 
+        
+        android:id="@+id/login_toast"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:src="@drawable/icon"
+        android:contentDescription="@string/empty"
+        />
+
+    <com.chris.lr.slidemenu.locus.LocusPassWordView
+        android:id="@+id/mLocusPassWordView_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.chris.lr.slidemenu.locus.LocusPassWordView>
+    
+    <TextView
+        android:id="@+id/tv_wangji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记手势密码"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        />
+
+</RelativeLayout>
